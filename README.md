@@ -98,16 +98,17 @@ direct visibility see purely partisan voting.
 
 ## Repository Structure
 ```
-district_inequality_votes/
-├── code/
-│   ├── main_dataset_construct.do
-│   ├── cleaning_IPUMSdata.do
-│   ├── cleaning_allmembersstacked.do
-│   └── main_project.do
-├── data/
-│   ├── raw/          # Not tracked; see Data section above
-│   └── made/          # Not tracked; see Data section above
-├── output/             # Regression tables (.tex) and descriptive statistics
+DistrictInequality_PartyAffiliation/
+├── research_project/
+│   ├── code/
+│   │   ├── main_dataset_construct.do
+│   │   ├── cleaning_IPUMSdata.do
+│   │   ├── cleaning_allmembersstacked.do
+│   │   └── main_project.do
+│   ├── data/
+│   │   ├── raw/          # Not tracked; see Data section above
+│   │   └── made/          # Not tracked; see Data section above
+│   └── output/             # Regression tables (.tex) and descriptive statistics
 ├── .gitignore
 └── README.md
 ```
